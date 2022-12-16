@@ -1,0 +1,170 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&family=Orbitron:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+#navli,a,button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px; 
+  color: #edf0f1;
+  text-decoration: none;
+  
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 10%;
+  background-color: #5A5A5A;
+  z-index: 1;
+}
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.nav___links {
+  list-style: none;
+}
+.nav___links li {
+  display: inline;
+  padding: 0px 20px;
+}
+.nav___links li a {
+  transition: all .3s ease 0s;
+}
+.nav___links li a:hover {
+  color:#0088a9;
+}
+ 
+#signupbutton {
+  padding: 9px 25px; 
+  background-color: rgba(0,136,169,1);
+  border: none;
+  border-radius: 40px;
+  cursor:pointer;
+  transition: all 0.3s ease 0s;
+  margin-left: 20px;
+}
+ 
+#linkCreateAccount:hover {
+  background-color: rgba(0,136,169,0.8);
+
+}
+#linkCreateAccount{
+  padding: 9px 25px; 
+  background-color: rgba(0,136,169,1);
+  border: none;
+  border-radius: 40px;
+  cursor:pointer;
+  transition: all 0.3s ease 0s;
+  margin-left: 20px;
+}
+ 
+#signupbutton:hover {
+  background-color: rgba(0,136,169,0.8);
+
+}
+.container {
+  display: grid;
+  height:20vh;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 1fr;
+  padding: 175px;
+  margin: 0;
+  background: #eee;
+  position: relative;
+}
+
+.square {
+  margin: 0;
+  background: #eee;
+  position: absolute;
+  top: -5px;
+  left: 0px;
+  height: 150%;
+  width: 50%;
+  background-color: lightblue;
+  z-index: 0;
+}
+h1 {
+ font-family: "Orbitron", sans-serif;
+ display: flex;
+ align-items: center;
+ justify-content: center;  
+ width: 100%;
+ height: 200px;
+ border: 2px;
+}
+form{
+  background: white;
+  display: flex;
+  height: 90%;
+  width: 90%;
+}
+form input{
+  
+  border: 0;
+  outline: none;
+  padding: 10px 20px;
+  height: 70px;
+  width: 90%;
+  font-size: 16px;
+}
+form #submitbutton{
+  background: purple;
+  border:none;
+  outline: none;
+  height: fill;
+  width: 100px;
+  cursor: pointer;
+}
+#submitbutton:hover {
+  background-color: rgba(160, 196, 0,0.8);
+
+}
+.square2 {
+  margin: 0;
+  display: flex;
+  position: absolute;
+  top: -3px;
+  right: 0px;
+  height: 150%;
+  width:50%;
+}
+.container2 {
+  padding: 300px;
+  margin: 0;
+  background: lightgreen;
+  position: relative;
+  top: 0px; 
+}
+h2 {
+ font-family: "Orbitron", sans-serif;
+ font-size: 46px; 
+ display: flex;
+ align-items: center;
+ justify-content: center;  
+ width: 100%;
+ height: 200px;
+ border: 2px;
+ top: -300px;
+ position: relative;
+}
+.pricing-plan__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(232, 209, 60);
+}
+.WWA-text__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

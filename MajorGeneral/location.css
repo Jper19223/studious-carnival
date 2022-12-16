@@ -1,0 +1,23 @@
+p #img1 {
+  position: absolute;
+  right: 40px;
+  width: 600px;
+  height: 450px;
+  top:285px;
+}
+p #img2 {
+  position: absolute;
+  right: 40px;
+  width: 600px;
+  height: 450px;
+  top:930px;
+
+}
+p #img3 {
+  position: absolute;
+  right: 40px;
+  width: 600px;
+  height: 450px;
+  top:1580px;
+
+}

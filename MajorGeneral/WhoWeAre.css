@@ -1,0 +1,51 @@
+.WWA-text {
+  position: absolute; 
+  top: 150px;
+  width: 300px;
+  border-radius: 25px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  overflow: hidden;
+  font-family: 'Slab',sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555555;
+  margin: 15px
+}
+.WWA-text2 {
+  position: absolute;
+  top: 150px; 
+  left: 150px;
+  width: 300px;
+  border-radius: 25px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  overflow: hidden;
+  font-family: 'Slab',sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555555;
+  margin: 15px
+}
+.WWA-text3 {
+  position: absolute;
+  top: 150px; 
+  right: 150px;
+  width: 300px;
+  border-radius: 25px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  overflow: hidden;
+  font-family: 'Slab',sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555555;
+  margin: 15px
+}
+.WWA-text__header {
+  padding: 25px;
+  background: pink; 
+  color: #000000;
+}
+.WWA-text__title,
+.WWA-text__summary {
+  margin: 0;
+  text-align: center;
+}
